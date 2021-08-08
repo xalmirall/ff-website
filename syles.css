@@ -312,6 +312,10 @@ h2, p{
 }
 
 @media (max-width:575px){
+    .wrap {
+        min-height: 67vh;
+    }
+    
     h1{
         font-size: 30px;
         line-height: 50px;
@@ -349,6 +353,10 @@ h2, p{
 }
 
 @media (max-width:400px){
+    .wrap {
+        min-height: 67vh;
+    }
+
     h1{
         font-size: 24px;
         line-height: 50px;
@@ -361,6 +369,12 @@ h2, p{
 
     #ep img{
         height: 300px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+
+    #ep-container{
+        margin-top: 0px;
     }
 
     @keyframes flicker {
@@ -382,10 +396,18 @@ h2, p{
         20%, 24%, 55% {        
             text-shadow: none;
         }    
-      }
+    }
+
+    #footer {
+        height: 100px;
+    }
 }
 
 @media (max-width:345px){
+    .wrap {
+        min-height: 67vh;
+    }
+
     #menu ul {
         font-size: 20px;
     }
@@ -406,7 +428,8 @@ h2, p{
 
     #ep img{
         height: 270px;
-        margin-top: 30px;
+        margin-bottom: 0px;
+        margin-top: 20px;
     }
 
     @keyframes flicker {
@@ -428,5 +451,9 @@ h2, p{
         20%, 24%, 55% {        
             text-shadow: none;
         }    
-      }
+    }
+
+    #footer {
+        height: 100px;
+    }
 }
