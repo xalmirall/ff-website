@@ -296,28 +296,12 @@ h2, p{
 }
 
 @media (max-width:575px){
-    h1{
-        font-size: 30px;
-        line-height: 50px;
-    }
-    
-    h2, p{
-        font-size: 20px;
-        line-height: 40px;
-    }
-
-    #ep img{
-        height: 400px;
-    }
-}
-
-@media (max-width:575px){
     .wrap {
         min-height: 67vh;
     }
     
     h1{
-        font-size: 25px;
+        font-size: 27px;
         line-height: 50px;
     }
     
